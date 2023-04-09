@@ -1,0 +1,35 @@
+{
+  "name": "@lastsecond/vue2-circle-progressbar",
+  "description": "customizable circle progressbar with slot for vue2",
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue2-circle-progressbar.umd.js",
+  "module": "./dist/vue2-circle-progressbar.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue2-circle-progressbar.es.js",
+      "require": "./dist/vue2-circle-progressbar.es.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "homepage": "https://github.com/lastsecondir/vue2-circle-progressbar#readme",
+  "license": "ISC",
+  "author": "Alireza Shalforoosh <alirezashalforoosh75@gmail.com> (https://github.com/Alireza1996Sh)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublish": "npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^2"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue": "^2",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
