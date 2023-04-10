@@ -2,7 +2,6 @@
   "name": "@lastsecond/vue2-circle-progressbar",
   "description": "customizable circle progressbar with slot for vue2",
   "version": "1.0.0",
-  "type": "module",
   "files": [
     "dist"
   ],
@@ -11,7 +10,7 @@
   "exports": {
     ".": {
       "import": "./dist/vue2-circle-progressbar.es.js",
-      "require": "./dist/vue2-circle-progressbar.es.js"
+      "require": "./dist/vue2-circle-progressbar.umd.js"
     },
     "./style.css": "./dist/style.css"
   },

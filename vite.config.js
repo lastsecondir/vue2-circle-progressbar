@@ -9,6 +9,7 @@ export default defineConfig({
       entry: path.resolve(__dirname, 'src/index.js'),
       name: 'vue2-circle-progressbar',
       fileName: (format) => `vue2-circle-progressbar.${format}.js`,
+      formats: ['es', 'umd', 'cjs'],
     },
     rollupOptions: {
       external: ['vue'],
@@ -16,6 +17,7 @@ export default defineConfig({
         globals: {
           vue: 'Vue',
         },
+        exports: "named",
       },
     },
   },

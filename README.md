@@ -61,6 +61,10 @@ import the component and its style to the vue component you want to use
 
 <script>
   import { CircleProgressbar } from '@lastsecond/vue2-circle-progressbar';
+
+  // for dynamic import use this:
+  // const CircleProgressbar = () => import('@lastsecond/vue2-circle-progressbar').then(comp => comp.CircleProgressbar);
+
   import '@lastsecond/vue2-circle-progressbar/style.css';
 
   export default {
