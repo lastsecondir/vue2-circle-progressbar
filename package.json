@@ -1,7 +1,7 @@
 {
   "name": "@lastsecond/vue2-circle-progressbar",
   "description": "customizable circle progressbar with slot for vue2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "dist"
   ],
